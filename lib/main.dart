@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wisata_candi/screens/favorite_screen.dart';
 import 'package:wisata_candi/screens/home_screen.dart';
 import 'package:wisata_candi/screens/search_screen.dart';
-
-
+import 'package:wisata_candi/screens/sign_up_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/sign_in_screen.dart';
 
@@ -53,9 +52,7 @@ class _MainScreenState extends State<MainScreen> {
 
       //TODO: 3. Buat properti bottomNavigationBar dengan nilai theme
       bottomNavigationBar: Theme(
-        data: Theme.of(context).copyWith(
-          canvasColor: Colors.deepPurple[50],
-        ),
+        data: Theme.of(context).copyWith(canvasColor: Colors.deepPurple[50]),
 
         //TODO: 4. Buat data dan child dari Theme
         child: BottomNavigationBar(
